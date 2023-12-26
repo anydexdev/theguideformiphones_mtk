@@ -1,5 +1,5 @@
 # The ultimate guide for Xiaomi phones (MT6781)
-So, you want to mod your Xiaomi phone but you don't know what tf are you doing? You are in the right place then. Note that this guide is focused on all Xiaomi phones using the Mediatek MT6781 SoC (known as Helio G96), tips here may work if your device has another MTK SoC, but have in mind that this is focused on this specific SoC. [Index](#bootloader)
+So, you want to mod your Xiaomi phone but you don't know what tf are you doing? You are in the right place then. Note that this guide is focused on all Xiaomi phones using the Mediatek MT6781 SoC (known as Helio G96), tips here may work if your device has another MTK SoC, but have in mind that this is focused on this specific SoC.
 
 ### Phones fully supported on this guide
 | Model | Codename |
@@ -11,8 +11,8 @@ So, you want to mod your Xiaomi phone but you don't know what tf are you doing? 
 
 ## Index
 1. Definitions
-   - Bootloader
-     - Unlock bootloader
+   - [Bootloader](#bootloader)
+     - [Unlock bootloader](#unlock-bootloader)
    - Fastboot
      - FastbootD
    - BROM
