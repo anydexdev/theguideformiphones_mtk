@@ -13,16 +13,16 @@ So, you want to mod your Xiaomi phone but you don't know what tf are you doing? 
 1. Definitions
    - [Bootloader](#bootloader)
      - [Unlock bootloader](#unlock-bootloader)
-   - Fastboot
-     - FastbootD
-   - BROM
-   - Recovery mode
-   - ROM
-   - OTA
-   - IMEI
-   - Root
-2. Backup IMEI
-3. Unlocking bootloader
+   - [Fastboot](#fastboot)
+     - [FastbootD](#fastbootd)
+   - [BROM](#brom)
+   - [Recovery mode](#recovery-mode)
+   - [ROM](#rom)
+   - [OTA](#ota)
+   - [IMEI](#imei)
+   - [Root](#root)
+2. [Backup IMEI](#backup-imei)
+3. [Unlocking bootloader](#unlocking-bootloader)
 4. Root
 5. Flashing a custom ROM
 6. Flashing the stock ROM
