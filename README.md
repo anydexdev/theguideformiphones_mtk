@@ -85,6 +85,13 @@ Most users use Windows 10/11 so I'll focus on those. You require some software i
 - mtkclient
 - UsbDk
 - MTK Serial Port driver (download this in releases)
-You have to:
+
+With all that said, you have to:
+
 1. Install Python
 2. Grab the mtkclient repository source [here](https://github.com/bkerler/mtkclient)
+3. Install UsbDk, download it from here
+4. Install the MTK Serial Port driver, download it from the releases page.
+5. Reboot your PC
+
+Now that you've done that, you are good to go.
