@@ -83,6 +83,10 @@ If you are in the first situation, you're fucked. Some users have reported that 
 
 However, if your are in the second situation, you're good to go. You'll have to use `mtkclient` for this.
 ## Preparing your environment
+
+> [!WARNING]
+> As I said earlier, read everything. It's specially important to read everything from here because this process can kill your device if you make a bad mistake. Please, READ EVERYTHING.
+
 Most users use Windows 10/11 so I'll focus on those. You require some software in your PC:
 - Python
 - mtkclient
@@ -93,8 +97,28 @@ With all that said, you have to:
 
 1. Install Python
 2. Grab the mtkclient repository source [here](https://github.com/bkerler/mtkclient)
-3. Install UsbDk, download it from here
-4. Install the MTK Serial Port driver, download it from the releases page.
-5. Reboot your PC
+3. Unzip the `mtkclient` source you just downloaded in its own folder.
+4. Install UsbDk, download it from here
+5. Install the MTK Serial Port driver, download it from the releases page.
+6. Reboot your PC
 
 Now that you've done that, you are good to go.
+
+## Unlocking
+
+Go to the `mtkclient` folder in where you unzipped the source. Open a CMD window inside that folder.
+
+> [!NOTE]
+> In Windows, to open a CMD window inside the folder, type `cmd` on the address bar of File Explorer and hit enter. That will open a CMD window inside the folder you are currently in.
+
+In the CMD, type this command:
+
+- `python mtk da seccfg unlock`
+
+You should see some text telling you to connect your device in BROM mode. It's completely normal that the message repeats itself. While that happens, grab your phone and turn it off, wait 5 to 10 seconds and connect the USB cable to your computer, not to your phone.
+
+Now, get ready to do a fast movement. You have to hold all the buttons of your phone, and immediately connect it to the PC while still holding all the buttons. This has to be done very fast, otherwise your device will reboot and you'll have to start over.
+
+If you did it correctly, you should see how a bunch of stuff gets printed in the CMD window ok your computer, and eventually, a message will appear saying that the bootloader unlocked successfully.
+
+If it says something like `Bootloader already unlocked`, look for help in the MT6781 telegram group here.
