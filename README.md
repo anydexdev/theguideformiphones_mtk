@@ -135,7 +135,7 @@ Now, get ready to do a fast movement. You have to hold all the buttons of your p
 
 If you did it correctly, you should see how a bunch of stuff gets printed in the CMD window ok your computer, and eventually, a message will appear saying that the bootloader unlocked successfully. At this moment, you can safely disconnect your phone and then turn it on.
 
-> [!WARNING]
+> [!CAUTION]
 > DO NOT disconnect your phone if the command is still running. Please wait for the command to complete, then disconnect your phone. If you disconnect your phone and the command is still running, you will pretty much fuck your phone.
 
 If it says something like `Bootloader already unlocked`, look for help in the MT6781 telegram group here.
