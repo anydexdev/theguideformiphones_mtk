@@ -39,6 +39,20 @@ The bootloader is the part of the system that is responsible of correctly bootin
 The bootloader contains a protection to prevent you from modifying system partitions and other stuff. If you are wishing to install a custom ROM or root your phone, you have to unlock the bootloader.
 ## Fastboot
 This is a boot mode that exposes the bootloader to a command-line named Fastboot.
+### How do I get Fastboot?
+Good question, here's how.
+
+1. Download the `platform-tools` package from here.
+2. Unzip it in its own folder.
+3. Download the Google USB drivers here.
+4. Power off your phone, wait 5 seconds and then press the `Power` key and `Volume -` key together until you see some orange letters saying FASTBOOT.
+5. Connect your phone to your computer, open the device manager.
+
+> [!NOTE]
+> To open the device manager in Windows 10/11, press `Windows` + `X` on your keyboard. A menu should open above your Windows logo on the taskbar, select device manager.
+
+6. You should see a device called `Android` that has a ⚠️ on the side. Select it and right-click it, then select `Update drivers`.
+7. Choose
 ### FastbootD
 This is the same as Fastboot, but with dynamic-partitions support.
 ## BROM
