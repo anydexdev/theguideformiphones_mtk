@@ -119,6 +119,15 @@ You should see some text telling you to connect your device in BROM mode. It's c
 
 Now, get ready to do a fast movement. You have to hold all the buttons of your phone, and immediately connect it to the PC while still holding all the buttons. This has to be done very fast, otherwise your device will reboot and you'll have to start over.
 
-If you did it correctly, you should see how a bunch of stuff gets printed in the CMD window ok your computer, and eventually, a message will appear saying that the bootloader unlocked successfully.
+If you did it correctly, you should see how a bunch of stuff gets printed in the CMD window ok your computer, and eventually, a message will appear saying that the bootloader unlocked successfully. At this moment, you can safely disconnect your phone and then turn it on.
+
+> [!WARNING]
+> DO NOT disconnect your phone if the command is still running. Please wait for the command to complete, then disconnect your phone. If you disconnect your phone and the command is still running, you will pretty much fuck your phone.
 
 If it says something like `Bootloader already unlocked`, look for help in the MT6781 telegram group here.
+
+> [!NOTE]
+> I am 100% sure that your device shows a message in small letter when booting, then it turns off. This is COMPLETELY NORMAL and harmless. To get rid of it, boot to Fastboot by pressing the `Power` key and the `Volume -` key when the device is off. You should see some orange letters that say FASTBOOT. Plug your phone to your PC, open a terminal and use this command: `fastboot oem cdms`. If the command throws an error, refer to the Fastboot section on this guide.
+
+# Root
+Now that you've unlocked your bootloader, you can root your phone. There are several ways to root your phone, but the most popular is using Magisk. 
