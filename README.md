@@ -9,6 +9,9 @@ So, you want to mod your Xiaomi phone but you don't know what tf are you doing? 
 | Redmi Note 11 Pro 4G | `viva` `vida` |
 | Redmi Note 12S | `sea` `ocean` |
 
+> [!WARNING]
+> Read everything of the section you are interested of, and when I say everything, I mean EVERYTHING. That will prevent you from having dumb issues.
+
 ## Index
 1. Definitions
    - [Bootloader](#bootloader)
